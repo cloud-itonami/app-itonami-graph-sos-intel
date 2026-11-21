@@ -1,4 +1,4 @@
-// graph-sos-intel.etzhayyim.com — graph System-of-Systems intelligence actor
+// graph-sos-intel.itonami.app — graph System-of-Systems intelligence actor
 // Thin-edge dispatcher: inventory cron + briefing cron in LangServer BPMN-contract + Python.
 // 3 methods: health / listRelations / listFindings
 
@@ -11,7 +11,7 @@ interface Env {
 interface ExportedHandler<E> { fetch(req: Request, env: E): Promise<Response>; }
 
 const NSID_PREFIX = "com.etzhayyim.apps.graphSosIntel.";
-const ACTOR_DID = "did:web:graph-sos-intel.etzhayyim.com";
+const ACTOR_DID = "did:web:graph-sos-intel.itonami.app";
 
 export default {
   async fetch(req: Request, env: Env): Promise<Response> {

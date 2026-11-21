@@ -18,7 +18,7 @@
   - `:app/route-count` and `:app/routes`, and `:app/vars`, are NOT copied
     from the Svelte constant, which held `routeCount: 0`, `routes: []`
     and `vars: []` — stale relative to `wrangler.jsonc`, which already
-    declared one route (`gs0s1nt7.etzhayyim.com/*`) and nine vars
+    declared one route (`gs0s1nt7.itonami.app/*`) and nine vars
     (`AGENTGATEWAY_MCP_ROUTER_URL`, `APP_CAPABILITIES`,
     `APP_DESCRIPTION`, `APP_DISPLAY_NAME`, `APP_EMBED_URL`,
     `APP_FRAMEWORK`, `APP_NANOID`, `APP_PERFORMER_TYPE`, `APP_UI_TYPE`).
@@ -77,7 +77,7 @@
    :app/name "etzhayyim-project-graph-sos-intel"
    :app/kind "cloudflare surface"
    :app/route-count 1
-   :app/routes ["gs0s1nt7.etzhayyim.com/*"]
+   :app/routes ["gs0s1nt7.itonami.app/*"]
    :app/vars ["AGENTGATEWAY_MCP_ROUTER_URL" "APP_CAPABILITIES" "APP_DESCRIPTION"
               "APP_DISPLAY_NAME" "APP_EMBED_URL" "APP_FRAMEWORK" "APP_NANOID"
               "APP_PERFORMER_TYPE" "APP_UI_TYPE"]

@@ -33,7 +33,7 @@
     "APP_CAPABILITIES": "null",
     "APP_DESCRIPTION": "Graph System-of-Systems intelligence actor. Continuously inventories vertex, edge, MV, and idx topology; writes auditable snapshots and findings.",
     "APP_DISPLAY_NAME": "Graph SoS Intel",
-    "APP_EMBED_URL": "https://gs0s1nt7.etzhayyim.com/?embed=1",
+    "APP_EMBED_URL": "https://gs0s1nt7.itonami.app/?embed=1",
     "APP_FRAMEWORK": "cljs-reagent-re-frame-jp-go-dds",
     "APP_NANOID": "gs0s1nt7",
     "APP_PERFORMER_TYPE": "",
@@ -50,8 +50,8 @@
   ],
   "routes": [
     {
-      "pattern": "gs0s1nt7.etzhayyim.com/*",
-      "zone_name": "etzhayyim.com"
+      "pattern": "gs0s1nt7.itonami.app/*",
+      "zone_name": "itonami.app"
     }
   ],
   "assets": {
