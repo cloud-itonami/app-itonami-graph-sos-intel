@@ -17,7 +17,7 @@
     (is (= "etzhayyim-project-graph-sos-intel" @(rf/subscribe [:app/project])))
     (is (= "cloudflare surface" @(rf/subscribe [:app/kind])))
     (is (= 1 @(rf/subscribe [:app/route-count])))
-    (is (= ["gs0s1nt7.etzhayyim.com/*"] @(rf/subscribe [:app/routes])))
+    (is (= ["gs0s1nt7.itonami.app/*"] @(rf/subscribe [:app/routes])))
     (is (= ["AGENTGATEWAY_MCP_ROUTER_URL" "APP_CAPABILITIES" "APP_DESCRIPTION"
             "APP_DISPLAY_NAME" "APP_EMBED_URL" "APP_FRAMEWORK" "APP_NANOID"
             "APP_PERFORMER_TYPE" "APP_UI_TYPE"]
